@@ -62,7 +62,7 @@ const config = {
       },
       {
         test: /\.css$/,
-        use:  SPLIT_STYLE 
+        use:  SPLIT_STYLE
           ? ExtractTextPlugin.extract({
             fallback: 'style-loader',
             use: [
@@ -78,7 +78,7 @@ const config = {
       },
       {
         test: /\.less$/,
-        use:  SPLIT_STYLE 
+        use:  SPLIT_STYLE
         ? ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
@@ -96,7 +96,7 @@ const config = {
       },
       {
         test: /\.scss$/,
-        use:  SPLIT_STYLE 
+        use:  SPLIT_STYLE
         ? ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
@@ -113,7 +113,7 @@ const config = {
         ]
       },
       {
-        test: /\.(eot|woff|woff2|ttf|svg|png|jpe?g|gif)(\?\S*)?$/,
+        test: /\.(eot|woff|woff2|ttf|otf|svg|png|jpe?g|gif)(\?\S*)?$/,
         use: [
           {
             loader:  'url-loader',
@@ -131,7 +131,7 @@ const config = {
     new ExtractTextPlugin('app.styles.css'),
     new webpack.optimize.CommonsChunkPlugin({
       name:     'vendor',
-      filename: 'app.vendor.bundle.js' 
+      filename: 'app.vendor.bundle.js'
     })
   ]
 };

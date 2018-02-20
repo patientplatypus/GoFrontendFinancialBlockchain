@@ -65,8 +65,8 @@
     "@types/react-router": "^4.0.15",
     "@types/react-router-dom": "^4.0.8",
     "@types/react-router-redux": "^5.0.8",
-    "@types/redux": "^3.6.0",
-    "@types/redux-thunk": "^2.1.0",
+    "@types/redux": "^3.6.31",
+    "@types/redux-thunk": "^2.1.32",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.1.1",
@@ -132,7 +132,7 @@
     "animate.css": "^3.5.2",
     "antd": "2.13.0",
     "antd-iconfont": "^2.10.0",
-    "axios": "^0.16.1",
+    "axios": "^0.16.2",
     "babel-polyfill": "^6.23.0",
     "chalk": "^2.0.1",
     "classnames": "^2.2.5",
@@ -151,7 +151,12 @@
     "react-router-redux": "^4.0.8",
     "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "render-if": "^0.1.1",
+    "styled-components": "^3.1.6",
+    "victory": "^0.24.5",
+    "victory-chart": "^24.6.1",
+    "victory-charts": "0.0.1"
   },
   "jest": {
     "moduleNameMapper": {
